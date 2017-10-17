@@ -1,6 +1,7 @@
-#terminal-command-line
-Berisi berbagai perintah2 untuk dijalankan di Terminal (OSX)
+# terminal-command-line
 
-Untuk mengingatkan diri sendiri; Supaya tidak melupakan apa yg telah dipelajari.
+Berisi berbagai perintah2 untuk dijalankan di Terminal (OSX)
+Untuk pengingat bagi diri sendiri; 
+Supaya tidak melupakan apa yg pernah dipelajari.
 
 -wiwied-
