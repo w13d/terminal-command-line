@@ -1,0 +1,10 @@
+// synchronize dua (ato lebih) folder
+
+rsync -av /Users/wiwied/Desktop/JPGweb/*px /jpg/ --include="xx" --include="*/" --exclude="*" &&
+rsync -av /Users/wiwied/Desktop/PNGweb/*px /png/ --include="xx" --include="*/" --exclude="*"
+
+
+
+rsync -av /Users/wiwied/Desktop/PNGweb/*px png/ && rsync -av /Users/wiwied/Desktop/JPGweb/*px jpg/
+
+
