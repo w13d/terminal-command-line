@@ -1,7 +1,9 @@
 #mencari file dengan perintah baris (command line)
 #terminal OSX
 
+```
 find . -name 'fileA*.jpg' -type f -delete
+```
 
   // . artinya mencari di lokasi kerja (working directory)
   // -name menentukan nama file yang dicari
@@ -16,8 +18,9 @@ find . -name 'fileA*.jpg' -type f -delete
 
   // -delete adalah perintah untuk menghapus
 
-
+```
 find -L /Volumes/mac_shared_drive/ \(-path \*/1600*/50-3017*_F.* -o -path \*/1600*/88-0010*_F.* \) -exec cp {} . \;
+```
 
   // find -L maksudnya mencarinya termasuk di lokasi asalnya Symbolik Link. 
   // -path maksudnya mencari dgn menentukan path/link lokasi folder/directory nya
@@ -29,9 +32,10 @@ find -L /Volumes/mac_shared_drive/ \(-path \*/1600*/50-3017*_F.* -o -path \*/160
   // {} mewakili semua yang telah ditemukan oleh perintah find
   // . merujuk pada lokasi tujuan, kemana harus meng-copy semua yg telah ditemukan
   // perintah ini harus ditutup dengan titik coma ( ; ) dan sebelumnya harus di-escape dengan backslash.
-  
-find /Users/wiwied/Desktop/PNGweb/ -name '*.png' -type f -delete && find /Users/wiwied/Desktop/JPGweb/ -name '*.jpg' -type f -delete
 
+```
+find /Users/wiwied/Desktop/PNGweb/ -name '*.png' -type f -delete && find /Users/wiwied/Desktop/JPGweb/ -name '*.jpg' -type f -delete
+```
   
 
 
