@@ -4,12 +4,12 @@ perintah  ini bisa untuk menghapus file
 tapi tidak bisa untuk menghapus folder  
 
 ```
-rm fileA
+> rm fileA
 ```
 untuk menghapus folder harus ditambahi parameter -R  
 
 ```
-#rm -R folderA
+> rm -R folderA
 ```
 
 parameter -R artinya recursive  
